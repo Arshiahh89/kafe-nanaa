@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102e22">
+<title>کافه نعنا | طعمِ لحظه‌های خوب</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2216%22 fill=%22%23173b2c%22/%3E%3Ctext x=%2232%22 y=%2245%22 font-size=%2244%22 text-anchor=%22middle%22 fill=%22%23c8d9b2%22%3E%E2%9D%A7%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/png" href="./images/logo.png?v=2">
+</head>
+
+<body>
+<div class="topline"><div class="wrap"><span>یک مکث سبز وسط شلوغی روز</span><span>قهوه · دمنوش · دسر · حال خوب</span></div></div>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><img src="images/logo.png" alt="لوگوی کافه نعنا" class="site-logo">
+<nav class="navlinks"><a href="#home">خانه</a><a href="#menu">منوی کافه</a><a href="#story">داستان نعنا</a></nav>
+<div class="nav-actions"><button class="pill" id="adminToggle" type="button">مدیریت قیمت‌ها</button><a class="pill primary" href="#menu" style="text-decoration:none">دیدن منو ↙</a></div>
+</div></header>
+<main id="home">
+<section class="hero"><div class="wrap hero-grid">
+<div><div class="eyebrow">خوش اومدی به گوشه‌ی سبز شهر</div><h1>یه مکث کوچیک،<br>یه حالِ <em>خوب.</em></h1><p>از عطر اولین شات اسپرسو تا طعم آخرین لقمه‌ی دسر؛ منوی کافه نعنا برای لحظه‌هایی ساخته شده که دلت می‌خواد دنیا کمی آهسته‌تر بچرخه.</p><div class="hero-buttons"><a class="hero-btn light" href="#menu">منوی نعنا <span>↙</span></a><a class="hero-btn ghost" href="#story">حال‌وهوای نعنا</a></div><div class="hero-note"><span></span> تازه، خوش‌طعم، با حال‌وهوای خود نعنا</div></div>
+<div class="hero-art"><div class="hero-photo"><img src="photos/لاته.webp" alt="لاته کافه نعنا"><div class="hero-photo-caption"><small>NANAA SIGNATURE</small><strong>طعمِ لحظه‌های خوب</strong></div></div><div class="floating-tag tag-a">یک فنجان آرامش<small>از اولین جرعه تا آخرین قطره</small></div><div class="floating-tag tag-b">made with care <small>لحظه‌های کوچک، خاطره‌های بزرگ</small></div></div>
+</div></section>
+<div class="strip"><div class="wrap"><span>قهوه‌ی درست، حالِ درست</span><span>✳</span><span>یک قرار با طعم خوب</span><span>✳</span><span>به دنیای سبز نعنا خوش اومدی</span></div></div>
+<section class="section" id="menu"><div class="wrap">
+<div class="section-head"><div><div class="section-kicker">THE NANAA MENU</div><h2>چی میل داری؟</h2></div><p class="section-desc">از قهوه‌های کلاسیک تا دمنوش‌های خاص و دسرهای وسوسه‌کننده؛ دسته‌ات رو انتخاب کن و منو رو بگرد.</p></div>
+<div class="category-rail" id="categories"></div>
+<div class="menu-toolbar"><label class="search"><input id="search" type="search" placeholder="دنبال چی می‌گردی؟ مثلا لاته، ماچا، چیزکیک…" autocomplete="off"></label><span class="result-count" id="resultCount"></span></div>
+<div class="admin-hint">حالت مدیریت فعاله؛ قیمت‌ها را تغییر بده و «ذخیره قیمت‌ها» را بزن. تغییرات پس از تأیید سرور در دیتابیس ثبت می‌شوند.</div>
+<div style="display:flex;justify-content:flex-start;margin-bottom:18px"><button class="pill" id="savePrices" style="display:none;background:#183f2d;color:white;border-color:#183f2d">ذخیره قیمت‌ها</button></div>
+<div class="products" id="products"></div><div class="empty" id="empty">چیزی پیدا نشد؛ عبارت دیگه‌ای رو امتحان کن.</div>
+</div></section>
+<section class="section story" id="story"><div class="wrap story-grid"><div class="story-card"><div class="mini">A LITTLE GREEN ESCAPE</div><h3>گاهی حال خوب<br>از یک فنجان شروع می‌شه.</h3><p>یه گوشه برای نفس کشیدن، گپ زدن و ساختن خاطره‌های ساده.</p></div><div class="story-copy"><div class="section-kicker">ABOUT NANAA</div><h2>نعنا؛ برای لحظه‌هایی که مال خودتن.</h2><p>کافه فقط جایی برای نوشیدن قهوه نیست؛ جاییه برای قرارهای خودمونی، چند دقیقه دور شدن از شلوغی و پیدا کردن طعم تازه‌ای از روز. این منو برای پیدا کردن انتخاب مورد علاقه‌ات طراحی شده.</p><div class="features"><div class="feature"><strong>قهوه</strong><small>گرم، سرد، دمی</small></div><div class="feature"><strong>طعم‌های تازه</strong><small>دمنوش و ماکتیل</small></div><div class="feature"><strong>چیزهای شیرین</strong><small>کیک، کوکی، دسر</small></div></div></div></div></section>
+</main>
+<footer><div class="wrap footer-inner"><div><div class="footer-brand">کافه نعنا <span style="color:#b8d4a5">❧</span></div><div class="footer-sub">یک مکث سبز وسط شلوغی روز</div></div><div class="footer-note">منوی دیجیتال کافه نعنا · طراحی‌شده با عشق به جزئیات</div></div></footer>
+<div class="toast" id="toast"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/supabase.js"></script>
+<script src="js/app.js"></script>
+</body></html>
